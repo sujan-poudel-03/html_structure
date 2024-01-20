@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+    <!-- <script src="./example.js"></script>     -->
+</head>
+<body>
+    <script src="../dist/bundle.js">  </script>
+    <script>
+        // document.write("Hello World!");
+        const result = myLibrary.addNumbers(5, 3);
+        console.log('Sum:', result);
+        document.write('Sum:', result);
+
+
+        document.write('<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>');
+
+
+        const htmlTag = "<p> Hi, How are you ? </p>";
+        const htmlInstance = myLibrary.HTMLParser(htmlTag);
+
+        console.log("Html Parser : ", htmlInstance.get 
